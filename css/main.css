@@ -1,0 +1,220 @@
+.main-wrapper {
+    background: #444 url(../img/1.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+h1 ,h3{
+    margin: 0;
+}
+h2 {
+    margin-bottom: 20px
+}
+p{
+    font-size: 18px;
+    letter-spacing: 1px
+}
+#hn {
+    position: fixed;
+    background:transparent;
+    width: 100%;
+    height: 50px;
+    z-index: 10000;
+}
+#banner {
+    background: transparent;
+    height: 700px
+}
+header {
+    background: rgba(0, 0, 0, 0.5)
+}
+.header-nav ul {
+    margin: 0;
+    float: right;
+}
+.active{font-size: 18px;font-weight: 600;}
+.header-nav  ul li,.header-nav .logo{
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+    float:left;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 20px
+}
+.hr {
+    background: #dedede;
+    width: 100%;
+    height: 2px;
+    margin: 20px auto;
+}
+a {
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+     color: white;
+}/*写inlineblock成为行内块元素，用户体验时减少挫败感*/
+#banner .inner {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 160px
+}
+button {
+    border: none;
+    background: #089db0;
+    padding: 10px;
+    border-radius: 10px
+}
+#banner .inner-img{width: 200px;height: 100px;position: absolute;top: 15%;right: 15%;}
+.inner-img>img{position: absolute;border: 5px solid #fff;border-radius:10%;box-sizing: border-box;-webkit-box-sizing: border-box;
+box-shadow: 4px 4px 3px rgba(0,0,0,0.2);transform-origin: center 400px;transition: transform .7s ease;}
+.inner-img img:first-child{transform: rotate(5deg);}
+.inner-img img:last-child{transform: rotate(-5deg);}
+.inner-img:hover img:first-child{transform: rotate(25deg);}
+.inner-img:hover img:last-child{transform: rotate(-20deg);}
+.code-img{width: 100px;height: 100px;  position: fixed;left: 2%;bottom:3%;background: yellow}
+#banner .inner .more {
+    margin-top: 280px;
+}
+.green-section {
+    text-align: center;
+    background: #089db0;
+    padding: 100px 0
+}
+.wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+
+}
+.sub-heading {
+    line-height: 30px;
+    font-size: 20px;
+    margin: 30px 0;
+    letter-spacing: 1px;
+}
+.icon-group {
+    margin-top: 60px
+}
+.green-section .icon-group .icon {
+    display: inline-block;
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background: rgba(0,0,0,0.05);
+    border-radius: 10%;
+    transform: rotate(45deg);
+    box-shadow: 15px 5px 20px #dedede ;
+}
+.green-section .icon-group .icon strong{
+    display:block;
+   -webkit-transform:rotate(-45deg) ;
+   transform:rotate(-45deg) ;
+}
+/*-webkit-animation: fadeOut 1s infinite ease-in-out;
+@keyframes fadeOut {
+    from{-webkit-transform: scale(0.0)}
+    to{-webkit-transform: scale(1.0);opacity: 0}
+}*/
+.gray-section {
+    background: #373259;
+    text-align: center;
+}
+.gray-section .img-section {
+    width: 45%;
+}
+.img-section img {
+    width: 100%
+}
+.gray-section .text-section {
+    width: 55%;
+    margin-top: 80px;
+}
+.article-preview > div {
+    float: left;
+}
+.article-preview:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.article-preview:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.07)
+}
+.purple-section {
+    background:purple;
+    padding: 60px;
+    text-align: center;
+    height:1160px;
+}
+.purple-section .header-wrapper {
+    text-align: center
+}
+.heading-wrapper h2{display: inline-block;font-size: 50px}
+.card-group h3{display: inline-block;}
+.card {
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid deeppink;
+}
+.card:first-child {
+    background: rgba(0, 0, 0, 0.08)
+}
+.card:nth-child(2) {
+    background: rgba(0, 0, 0, 0.12)
+}
+.card:nth-child(3) {
+    background: rgba(0, 0, 0, 0.16)
+}
+.card:nth-child(4) {
+    background: rgba(0, 0, 0, 0.20)
+}
+.card:nth-child(5) {
+    background: rgba(0, 0, 0, 0.24)
+}
+.card:nth-child(6) {
+    background: rgba(0, 0, 0, 0.28)
+}
+footer {
+    background: #333;
+    min-height: 200px;
+    text-align: center;
+}
+.share-group{width: 1080px;margin: 0 auto;padding: 50px}
+.share-group a{margin-right: 10px}
+#top-up{display:none;position: fixed;right: 2%;bottom: 5%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
